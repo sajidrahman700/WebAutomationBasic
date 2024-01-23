@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-22T23:58:45 BDT" name="Default suite" finished-at="2024-01-22T23:58:48 BDT" duration-ms="3555">
+  <suite started-at="2024-01-23T22:54:42 BDT" name="Default suite" finished-at="2024-01-23T22:54:50 BDT" duration-ms="8560">
     <groups>
     </groups>
-    <test started-at="2024-01-22T23:58:45 BDT" name="Default test" finished-at="2024-01-22T23:58:48 BDT" duration-ms="3555">
-      <class name="first.com.WebAutomationBasic.OpenAWebPage">
-        <test-method is-config="true" signature="openAbrowser()[pri:0, instance:first.com.WebAutomationBasic.OpenAWebPage@70e9c95d]" started-at="2024-01-22T23:58:41 BDT" name="openAbrowser" finished-at="2024-01-22T23:58:45 BDT" duration-ms="4194" status="PASS">
+    <test started-at="2024-01-23T22:54:42 BDT" name="Default test" finished-at="2024-01-23T22:54:50 BDT" duration-ms="8560">
+      <class name="first.com.WebAutomationBasic.TestWebElement">
+        <test-method is-config="true" signature="openAbrowser()[pri:0, instance:first.com.WebAutomationBasic.TestWebElement@121314f7]" started-at="2024-01-23T22:54:39 BDT" name="openAbrowser" finished-at="2024-01-23T22:54:42 BDT" duration-ms="2499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAbrowser -->
-        <test-method signature="openGoogle()[pri:0, instance:first.com.WebAutomationBasic.OpenAWebPage@70e9c95d]" started-at="2024-01-22T23:58:45 BDT" name="openGoogle" finished-at="2024-01-22T23:58:48 BDT" duration-ms="3490" status="PASS">
+        <test-method signature="TestElement()[pri:0, instance:first.com.WebAutomationBasic.TestWebElement@121314f7]" started-at="2024-01-23T22:54:42 BDT" name="TestElement" finished-at="2024-01-23T22:54:50 BDT" duration-ms="8516" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openGoogle -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:first.com.WebAutomationBasic.OpenAWebPage@70e9c95d]" started-at="2024-01-22T23:58:48 BDT" name="quitBrowser" finished-at="2024-01-22T23:58:49 BDT" duration-ms="223" status="PASS">
+        </test-method> <!-- TestElement -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:first.com.WebAutomationBasic.TestWebElement@121314f7]" started-at="2024-01-23T22:54:50 BDT" name="quitBrowser" finished-at="2024-01-23T22:54:50 BDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- first.com.WebAutomationBasic.OpenAWebPage -->
+      </class> <!-- first.com.WebAutomationBasic.TestWebElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
