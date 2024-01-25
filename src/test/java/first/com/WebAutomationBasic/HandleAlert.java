@@ -12,7 +12,7 @@ public void test_different_alert() {
 		browser.get("https://the-internet.herokuapp.com/javascript_alerts");
 		
         browser.findElement(By.xpath("//button[@onclick='jsAlert()']")).click();
-        Alert alert = browser.switchTo().alert();
+        Alert alert = browser.switchTo().alert(); // Here Driver moves to alert
         System.out.println(alert.getText());
         alert.accept();
         Assert.assertEquals(browser.findElement(By.xpath("//p[@id='result']")).getText(), "You successfully clicked an alert");
