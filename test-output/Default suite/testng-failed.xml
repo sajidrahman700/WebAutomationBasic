@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="first.com.WebAutomationBasic.TestAdvanceWebElement">
+      <class name="first.com.WebAutomationBasic.SoftNHardAssertion">
         <methods>
           <include name="openAbrowser"/>
-          <include name="TestElement"/>
+          <include name="testDiffassertion"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- first.com.WebAutomationBasic.TestAdvanceWebElement -->
+      </class> <!-- first.com.WebAutomationBasic.SoftNHardAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
