@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-25T23:31:06 BDT" name="Default suite" finished-at="2024-01-25T23:31:24 BDT" duration-ms="17966">
+  <suite started-at="2024-01-25T23:52:33 BDT" name="Default suite" finished-at="2024-01-25T23:52:57 BDT" duration-ms="24806">
     <groups>
     </groups>
-    <test started-at="2024-01-25T23:31:06 BDT" name="Default test" finished-at="2024-01-25T23:31:24 BDT" duration-ms="17966">
-      <class name="first.com.WebAutomationBasic.TestScrollWebPage">
-        <test-method is-config="true" signature="openAbrowser()[pri:0, instance:first.com.WebAutomationBasic.TestScrollWebPage@130c12b7]" started-at="2024-01-25T23:31:04 BDT" name="openAbrowser" finished-at="2024-01-25T23:31:06 BDT" duration-ms="1841" status="PASS">
+    <test started-at="2024-01-25T23:52:33 BDT" name="Default test" finished-at="2024-01-25T23:52:57 BDT" duration-ms="24806">
+      <class name="first.com.WebAutomationBasic.TestIFrameElement">
+        <test-method is-config="true" signature="openAbrowser()[pri:0, instance:first.com.WebAutomationBasic.TestIFrameElement@130c12b7]" started-at="2024-01-25T23:52:27 BDT" name="openAbrowser" finished-at="2024-01-25T23:52:33 BDT" duration-ms="5390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAbrowser -->
-        <test-method signature="testscroll()[pri:0, instance:first.com.WebAutomationBasic.TestScrollWebPage@130c12b7]" started-at="2024-01-25T23:31:06 BDT" name="testscroll" finished-at="2024-01-25T23:31:24 BDT" duration-ms="17909" status="PASS">
+        <test-method signature="testIFrameItems()[pri:0, instance:first.com.WebAutomationBasic.TestIFrameElement@130c12b7]" started-at="2024-01-25T23:52:33 BDT" name="testIFrameItems" finished-at="2024-01-25T23:52:57 BDT" duration-ms="24751" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testscroll -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:first.com.WebAutomationBasic.TestScrollWebPage@130c12b7]" started-at="2024-01-25T23:31:24 BDT" name="quitBrowser" finished-at="2024-01-25T23:31:24 BDT" duration-ms="239" status="PASS">
+        </test-method> <!-- testIFrameItems -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:first.com.WebAutomationBasic.TestIFrameElement@130c12b7]" started-at="2024-01-25T23:52:58 BDT" name="quitBrowser" finished-at="2024-01-25T23:52:58 BDT" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- first.com.WebAutomationBasic.TestScrollWebPage -->
+      </class> <!-- first.com.WebAutomationBasic.TestIFrameElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
