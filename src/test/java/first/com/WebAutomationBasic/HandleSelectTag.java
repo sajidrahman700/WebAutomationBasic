@@ -16,7 +16,7 @@ public class HandleSelectTag extends DriverSetup{
 		browser.get("https://www.ebl.com.bd/onlineapply");
 		WebElement dropdown = browser.findElement(By.id("product_type"));
 		// using Select class for select the option from dropdown. Here we locate a web element of selectTag. Throw this web element we can locate all option from dropdown
-		Select select = new Select(dropdown);
+		Select select = new Select(dropdown); //In Select class we send webElement
 		dropdown.click();
 		Thread.sleep(3000);
 
