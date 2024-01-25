@@ -38,11 +38,17 @@ public class TestWebElement extends DriverSetup {
 		WebElement search = browser.findElement(By.id("form_indentity_number"));
 		search.sendKeys("123456789");
 		Thread.sleep(3000);
+		//Id Attribute value with # would be a cssSelector
+		//WebElement search = browser.findElement(By.cssSelector("#form_indentity_number"));
+		
 		
 		//Locate element using ClassName Attribute and write something on text field
 		WebElement password = browser.findElement(By.className("email"));
 		password.sendKeys("Sajid@gamil.com");
 		Thread.sleep(3000);
+		//className Attribute value with . would be a cssSelector
+		//WebElement password = browser.findElement(By.cssSelector(".email"));
+		
 		
 		//Locate element using partiallinktext print full text of the LinkText
 		WebElement follow = browser.findElement(By.partialLinkText("Disclosures"));
@@ -53,6 +59,9 @@ public class TestWebElement extends DriverSetup {
 		WebElement branch = browser.findElement(By.xpath("//select[@name='form_branch']"));
 	    branch.click();
 		Thread.sleep(3000);
+		//without using tagname for xPath
+		//WebElement branch = browser.findElement(By.xpath("//*[@name='form_branch']"));
+		
 		
 		//Locate element using cssSelector and click that element
 		//here we need to scrolldown to that element otherwise it will show failure
