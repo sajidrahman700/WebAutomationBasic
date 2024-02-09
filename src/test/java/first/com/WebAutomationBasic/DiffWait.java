@@ -24,7 +24,7 @@ public class DiffWait extends DriverSetup {
 		WebElement alertButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='delayalert']")));
 		alertButton.click();
 		
-		Alert alert = wait.until(ExpectedConditions.alertIsPresent()); // alertIsPresent method helps to switch to the alert and return that alert
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent()); // alertIsPresent method helps to switch to the alert and return that alert. no need to switch browser
 		//Alert alert = browser.switchTo().alert();
 		System.out.println(alert.getText());
 		alert.accept();

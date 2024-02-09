@@ -22,13 +22,15 @@ public class TestAdvanceWebElement extends DriverSetup {
 		System.out.println(browser.findElement(By.xpath("//a[@class='cta-call' and @href='tel:+8809612316230']")).getText()); // //tagname[@attribute='value' and @attribute='value']
 		System.out.println(browser.findElement(By.cssSelector("a[class='cta-call'][href='tel:+8809612316230']")).getText());  // tagname[attribute='value'][@attribute='value']
 		
+		//Locate element for dynamic attribute with substring. we can use half value of attribute. Here we can use value from everywhere(first,middle,last). we can't remove the value from the middle.
+		System.out.println(browser.findElement(By.xpath("//a[contains(@href, \"ps://dgzip.ebl\")]")).getText()); //  //tagname[contains(@attribute,\"substring\")]
+		System.out.println(browser.findElement(By.cssSelector("a[href*= \"ps://dgzip.ebl\"]")).getText()); //  tagname[attribute* = \"substring\"]
+		
 		//Locate element for dynamic attribute with substring. we can use half value of attribute. but here we have to use value from the first. we can remove the last part of the value.
 		System.out.println(browser.findElement(By.xpath("//a[starts-with(@href, \"https://dgzip.ebl\")]")).getText()); //  //tagname[start-with(@attribute,\"substring\")]
 		System.out.println(browser.findElement(By.cssSelector("a[href^= \"https://dgzip.ebl\"]")).getText()); //  tagname[attribute^ = \"substring\"]
 		
-		//Locate element for dynamic attribute with substring. we can use half value of attribute. Here we can use value from everywhere(first,middle,last). we can't remove the value from the middle.
-		System.out.println(browser.findElement(By.xpath("//a[contains(@href, \"ps://dgzip.ebl\")]")).getText()); //  //tagname[contains(@attribute,\"substring\")]
-		System.out.println(browser.findElement(By.cssSelector("a[href*= \"ps://dgzip.ebl\"]")).getText()); //  tagname[attribute* = \"substring\"]
+		
 		
 		
 		
